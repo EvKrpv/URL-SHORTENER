@@ -7,20 +7,20 @@ URL Shortener Service
 
 ## Структура проекта
 
-- url-shortener-go/
----    cmd/main.go                           # Точка входа
----    internal/
----        config/config.go                  # Конфигурация
----        handlers/url_handlers.go          # HTTP обработчики
----        models/models.go                  # Модели данных
----        repositories/repository.go        # Работа с БД
----        services/service.go               # Бизнес-логика
----        pkg/random/random.go              # Генрация коротких ссылок
-- Dockerfile
-- docker-compose.yml
-- init.sql                                  # Инициализация БД
-- go.mod
-- README.md
+`url-shortener-go/`
+`cmd/main.go`: Точка входа
+`internal/`
+`config/config.go`: Конфигурация
+`handlers/url_handlers.go`: HTTP обработчики
+`models/models.go`: Модели данных
+`repositories/repository.go`: Работа с БД
+`services/service.go`: Бизнес-логика
+`pkg/random/random.go`: Генрация коротких ссылок
+`Dockerfile`
+`docker-compose.yml`
+`init.sql`: Инициализация БД
+`go.mod`
+`README.md`
 
 ## Возможности
 
